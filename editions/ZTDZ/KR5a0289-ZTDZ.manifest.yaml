@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5a0289/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5a0289/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 修真精義雜論
+  date: '2015-08-28 23:44:24.415380'
+  source:
+    repository: kanripo
+    path: KR5a0289
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0289_000-ZTDZ.yaml, hash: 'sha256:da5ff75c83575310436bf28f472212b6a7ea1034e279ed55dc193b0478d8757c'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0289_000-ZTDZ.markers.yaml, hash: 'sha256:307b4585b712cb3242c23a1df64f05778a6f6f5e545beae415727dd05c8e16ee'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0289_SJB_000-040953b
+    span:
+    - body
+    - 0
+    - 7211
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:fea20ec3a2c156456af877406577f4991167727c0e91db7b4d2cfd84b60d8c00

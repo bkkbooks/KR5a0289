@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5a0289/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5a0289/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 修真精義雜論
+  date: '2015-08-28 23:44:24.415380'
+  source:
+    repository: kanripo
+    path: KR5a0289
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0289_000-HFL.yaml, hash: 'sha256:39133084be462249761025ea536a9cdc7ceff0efb5e8c8327887315d4b26076d'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0289_000-HFL.markers.yaml, hash: 'sha256:0c0092bb06ba1ddd0ce0906fb156f03a4f653a7a1937ce9e515627ec01af96d5'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0289_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 7211
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:8eb04faa0fe3b30c7a40771e34d1a9c1c9777f94a79b449dda85f1b0af24239f
